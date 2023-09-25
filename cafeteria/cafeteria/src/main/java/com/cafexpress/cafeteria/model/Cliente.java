@@ -6,7 +6,7 @@ import org.springframework.data.annotation.Id;
 @Data
 public class Cliente {
     @Id
-    private String cedula;
+    private Integer cedula;
     private String nombre;
     private String correo;
     private String telefono;
